@@ -4,7 +4,6 @@ use Illuminate\Support\Facades\Route;
 
 use App\Models\Post;
 use App\Http\Controllers\PostController;
-
 //CRUD
 Route::get('/', [PostController::class, 'show']);
 
